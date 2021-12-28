@@ -1,6 +1,6 @@
 <p align="center"><a href="https://t.me/V_I_DE_bot"><img src="https://github.com/levina-lab/video-stream/raw/main/driver/veezlogo.png"></a></p>
 <p align="center">
-    <br><b>Video Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
+    <br><b>فـيـديـو مـبـاشـر هـو بـوت تـرقـيـه الـمـتـقـدم الـذي يـسـمـح لـك بـتـشـغـيـل الفيديو والـمـوسـيـقـى على رومـات الـتـيـلـيـجـرام</b><br>
 </p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
