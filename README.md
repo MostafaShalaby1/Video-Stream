@@ -13,14 +13,14 @@
     <a href="https://github.com/levina-lab/video-stream/network/members"> <img src="https://img.shields.io/github/stars/levina-lab/video-stream?color=red&logo=github&logoColor=blue&style=flat-square" /></a>  
 </p>
 
-## 📊 Stats
+## 📊 احصائيات
 [![CodeFactor](https://www.codefactor.io/repository/github/levina-lab/video-stream/badge)](https://www.codefactor.io/repository/github/levina-lab/video-stream)
 
-## 🧪 Get `SESSION_NAME` from below:
+## 🧪 كود الجلسه احصل على `SESSION_NAME` from below:
 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py) ``Pyrogram``
 
-## 🎭 Preview
+## 🎭 معاينة
 <p align="center">
   <img src="https://telegra.ph/file/924bde9bda30db3246eec.jpg">
 </p>
