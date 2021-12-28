@@ -25,70 +25,63 @@
   <img src="https://telegra.ph/file/924bde9bda30db3246eec.jpg">
 </p>
 
-## ✨ Features
-- Music & Video stream support
-- MultiChat support
-- Playlist & Queue support
-- Skip, Pause, Resume, Stop feature
-- Music & Video downloader feature
-- Inline Search support
-- YouTube direct search support
-- YouTube/Local/Live/m3u8 stream support
-- Inline Search support
-- Control With Button support
-- Volume Control
-- Userbot Auto Join
-- Direct Updater
+## ✨ دعم دفق الموسيقى والفيديو
 
-## 🛠 Commands:
-| Command | Description |
-| ------ | ------ |
-| `/mplay (query)` | play music from youtube |
-| `/vplay (query)` | play video from youtube |
-| `/vstream (live link)` | play video live streaming video |
-| `/pause` | pause the streaming (admin only) |
-| `/resume` | resume the streaming (admin only) |
-| `/skip` | switch to next stream (admin only) |
-| `/stop` | end the streaming (admin only) |
-| `/vmute` | for mute the userbot on voice chat |
-| `/vunmute` | for unmute the userbot on voice chat |
-| `/volume 1/200` | adjust the volume of userbot (userbot must be admin) |
-| `/playlist` | show you all the current stream list |
-| `/song (query)` | download music from youtube |
-| `/video (query)` | download video from youtube |
-| `/userbotjoin` | invite the userbot to join group (admin only) |
-| `/userbotleave` | instruct userbot to leave the group (admin only) |
-| `/leaveall` | order the userbot to leave from all group (sudo only) |
-| `/update` | update your bot directly without leaving telegram (sudo only) |
-| `/restart` | restart your bot directly without leaving telegram (sudo only) |
-| `/clean` | clean all raw files |
-| `/rmd` | clean all downloaded files |
-## Heroku Deployment 💜
-The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
+دعم MultiChat
+
+دعم قائمة التشغيل وقائمة الانتظار
+
+ميزة تخطي ، وقفة ، واستئناف ، وإيقاف
+
+ميزة تنزيل الموسيقى والفيديو
+
+دعم البحث المضمن
+
+يوتيوب دعم البحث المباشر
+
+دعم دفق YouTube / Local / Live / m3u8
+
+دعم البحث المضمن
+
+التحكم مع دعم الزر
+
+التحكم في مستوى الصوت
+
+الانضمام التلقائي إلى Userbot
+
+محدث مباشر
+
+🛠 الأوامر:
+
+CommandDescription / mplay (استعلام) تشغيل الموسيقى من youtube / vplay (استعلام) تشغيل الفيديو من youtube / vstream (رابط مباشر) تشغيل فيديو بث مباشر / إيقاف مؤقت للبث (المسؤول فقط) / استئناف البث (المسؤول فقط) / skipswitch إلى التالي دفق (المشرف فقط) / إيقاف البث (المسؤول فقط) / vmut لكتم صوت userbot على الدردشة الصوتية / vunmut لإلغاء كتم صوت userbot في الدردشة الصوتية / المجلد 1/200 ، اضبط حجم برنامج userbot (يجب أن يكون userbot مسؤولاً) / playlists تظهر لك كل الحالي قائمة الدفق / الأغنية (استعلام) تنزيل الموسيقى من youtube / video (استعلام) تنزيل الفيديو من youtube / userbotjoin قم بدعوة userbot للانضمام إلى المجموعة (المسؤول فقط) / userbotleavein إرشاد userbot لمغادرة المجموعة (المسؤول فقط) / اترك الأمر userbot لمغادرة الكل group (sudo only) / قم بتحديث الروبوت الخاص بك مباشرة دون مغادرة telegram (sudo فقط) / أعد تشغيل الروبوت الخاص بك مباشرة دون مغادرة telegram (sudo فقط) / cleanclean all raw files / rmdclean all download files
+
+انتشار Heroku 💜
+
+الطريقة السهلة لاستضافة هذا الروبوت ، والنشر في Heroku ، وتغيير بلد التطبيق إلى أوروبا (سيساعد ذلك في جعل الروبوت مستقرًا).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/video-stream)
 
-## VPS Deployment 📡
-Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
+## نشر VPS 📡
+احصل على أفضل جودة لأداء البث من خلال استضافته على VPS ، وإليك الخطوات:
 
-```sh
-sudo apt update && apt upgrade -y
+ش
+تحديث sudo apt && apt Upgrade -y
 sudo apt install git curl python3-pip ffmpeg -y
-pip3 install -U pip
-curl -sL https://deb.nodesource.com/setup_16.x | bash -
+تثبيت pip3 -U pip
+curl -sL https://deb.nodesource.com/setup_16.x | باش -
 sudo apt-get install -y nodejs
 npm i -g npm
-git clone https://github.com/levina-lab/video-stream # clone the repo.
-cd video-stream
-pip3 install -U -r requirements.txt
-cp example.env .env # use vim to edit ENVs
-vim .env # fill up the ENVs (Steps: press i to enter in insert mode then edit the file. Press Esc to exit the editing mode then type :wq! and press Enter key to save the file).
-python3 main.py # run the bot.
+git clone https://github.com/levina-lab/video-stream # استنساخ الريبو.
+سي دي دفق الفيديو
+تثبيت pip3 -U -r requirements.txt
+cp example.env .env # استخدم vim لتحرير ENVs
+vim .env # قم بملء ENVs (الخطوات: اضغط على i للدخول في وضع الإدراج ثم قم بتحرير الملف. اضغط Esc للخروج من وضع التحرير ثم اكتب: wq! واضغط على مفتاح Enter لحفظ الملف).
+python3 main.py # قم بتشغيل البوت.
 
-# continue the host with screen or anything else, thanks for reading.
+# تابع المضيف بالشاشة أو أي شيء آخر ، شكرًا على القراءة.
 ```
 
-# Credits 💖
+# الاعتمادات 💖
 
 - [desha](https://github.com/MostafaShalaby1) ``Dev``
 - [Zxce3](https://github.com/Zxce3) ``Dev``
@@ -98,5 +91,5 @@ python3 main.py # run the bot.
 - [Laky's](https://github.com/Laky-64) for [``py-tgcalls``](https://github.com/pytgcalls/pytgcalls)
 - [Dan](https://github.com/delivrance) for [``Pyrogram``](https://github.com/pyrogram)
 
-### Support & Updates 🎑
+### يدعم & التحديثات 🎑
 <a href="https://t.me/music_Desha"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/music_Desha1"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
