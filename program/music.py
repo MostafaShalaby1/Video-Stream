@@ -25,7 +25,7 @@ def ytsearch(query: str):
         songname = data["title"]
         url = data["link"]
         duration = data["duration"]
-        thumbnail = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg"
+        thumbnail = f"https://i.ytimg.com/vi/{data[ id ]}/hqdefault.jpg"
         return [songname, url, duration, thumbnail]
     except Exception as e:
         print(e)
@@ -33,13 +33,13 @@ def ytsearch(query: str):
 
 
 async def ytdl(format: str, link: str):
-    stdout, stderr = await bash(f'youtube-dl -g -f "{format}" {link}')
+    stdout, stderr = await bash(f youtube-dl -g -f "{format}" {link} )
     if stdout:
         return 1, stdout.split("\n")[0]
     return 0, stderr
 
 
-@Client.on_message(command(["mplay", f"mplay@{BOT_USERNAME}", "شغل", "ديشا", "مينا", "فرعون", "منيل", "play"]) & other_filters)
+@Client.on_message(command(["play", f"تشغيل", "شغل", "سافو", "كئيب", "روش", "امبراطور", "play"]) & other_filters)
 async def play(c: Client, m: Message):
     replied = m.reply_to_message
     chat_id = m.chat.id
@@ -52,7 +52,7 @@ async def play(c: Client, m: Message):
         ]
     )
     if m.sender_chat:
-        return await m.reply_text("you're an __Anonymous__ Admin !\n\n» revert back to user account from admin rights.")
+        return await m.reply_text("you re an __Anonymous__ Admin !\n\n» revert back to user account from admin rights.")
     try:
         aing = await c.get_me()
     except Exception as e:
