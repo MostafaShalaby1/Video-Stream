@@ -75,7 +75,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 البشمبرمج فوزي", url=f"https://t.me/U_K_G"
+                        "👥 البشمبرمج عـازف", url=f"https://t.me/X_X_A_Z_F_X_X"
                     ),
                     InlineKeyboardButton(
                         "📣 قناة البوت", url=f"https://t.me/{UPDATES_CHANNEL}"
@@ -83,7 +83,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 البشمبرمج ديشا", url="https://t.me/DeshaXBlacck"
+                        "🌐 البشمبرمج سـافو", url="https://t.me/s_a_s_a_3li"
                     )
                 ],
             ]
@@ -103,15 +103,15 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ البشمبرمج ديشا", url=f"https://t.me/DeshaXBlacck"),
+                InlineKeyboardButton("✨ البشمبرمج سـافو", url=f"https://t.me/s_a_s_a_3li"),
                 InlineKeyboardButton(
-                    "📣 قناة السورس", url=f"https://t.me/music_Desha1"
+                    "📣 قناة السورس", url=f"https://t.me/L_S_A_V_O"
                 ),
             ]
         ]
     )
 
-    alive = f"**مرحبا {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ يعمل البوت بشكل طبيعي\n🍀 سيدي: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ نسخة البوت: `v{__version__}`\n🍀 نسخة بيروجرام: `{pyrover}`\n✨ نسخة بايثون: `{__python_version__}`\n🍀 فيثاغورس والترخيص: `{pytover.__version__}`\n✨ حالة الجهوزية: `{uptime}`\n\n**شكرا لإضافتي هنا ، لتشغيل الفيديو & الموسيقى في دردشة الفيديو الجماعية الخاصة بك** ❤"
+    alive = f"**مرحبا {message.from_user.mention()}, i m {BOT_NAME}**\n\n✨ يعمل البوت بشكل طبيعي\n🍀 سيدي: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n✨ نسخة البوت: `v{__version__}`\n🍀 نسخة بيروجرام: `{pyrover}`\n✨ نسخة بايثون: `{__python_version__}`\n🍀 فيثاغورس والترخيص: `{pytover.__version__}`\n✨ حالة الجهوزية: `{uptime}`\n\n**شكرا لإضافتي هنا ، لتشغيل الفيديو & الموسيقى في دردشة الفيديو الجماعية الخاصة بك** ❤"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
@@ -125,7 +125,7 @@ async def ping_pong(client: Client, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
     delta_ping = time() - start
-    await m_reply.edit_text("🏓 `البينج مظبوط يديشا!!`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
+    await m_reply.edit_text("🏓 `البينج مظبوط يسـافو`\n" f"⚡️ `{delta_ping * 1000:.3f} ms`")
 
 
 @Client.on_message(command(["uptime", f"uptime@{BOT_USERNAME}", "بوت"]) & ~filters.edited)
@@ -153,8 +153,8 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 قناة السورس", url=f"https://t.me/music_Desha1"),
-                            InlineKeyboardButton("💭 البشمبرمج ديشاا", url=f"https://t.me/DeshaXBlacck")
+                            InlineKeyboardButton("📣 قناة السورس", url=f"https://t.me/L_S_A_V_O"),
+                            InlineKeyboardButton("💭 البشمبرمج سـافو", url=f"https://t.me/s_a_s_a_3li")
                         ],
                         [
                             InlineKeyboardButton("👤 حساب المساعد", url=f"https://t.me/{ass_uname}")
@@ -162,3 +162,4 @@ async def new_chat(c: Client, m: Message):
                     ]
                 )
             )
+
